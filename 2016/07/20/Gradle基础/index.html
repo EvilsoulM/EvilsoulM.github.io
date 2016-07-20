@@ -10,6 +10,7 @@
 <li>gradle tasks查看任务信息</li>
 <li>gradle task-name执行任务<br>列出了好多任务，这时候就可以通过 gradle 任务名来执行某个任务。这和make xxx很像。比如：<br><strong>gradle clean</strong>是执行清理任务，和make clean类似。<br><strong>gradle properites</strong>用来查看所有属性信息。<br><strong>gradle tasks</strong>会列出每个任务的描述，通过描述，我们大概能知道这些任务是干什么的…..。然后gradle task-name执行它就好。<br>这里要强调一点：Task和Task之间往往是有关系的，<strong>这就是所谓的依赖关系。比如，assemble task就依赖其他task先执行，assemble才能完成最终的输出</strong>。</li>
 </ol>
+<a id="more"></a>
 <p>##Gradle基本类型</p>
 <p>gradle基于groovy, gradle提供的基本类型也都实现了script.并且提供了大量的方法和属性</p>
 <p>Build script -&gt; Project (每个project的build.gradle也就是一个project)<br>Init script -&gt; Gradle<br>Settings script -&gt; Settings (对应setting.gradle)</p>
