@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://evilsoulm.com/"/>
-  <updated>2016-07-20T08:29:18.000Z</updated>
+  <updated>2016-07-20T08:30:21.000Z</updated>
   <id>http://evilsoulm.com/</id>
   
   <author>
@@ -20,13 +20,12 @@
     <link href="http://evilsoulm.com/2016/07/20/Gradle%E5%9F%BA%E7%A1%80/"/>
     <id>http://evilsoulm.com/2016/07/20/Gradle基础/</id>
     <published>2016-07-19T20:23:04.000Z</published>
-    <updated>2016-07-20T08:29:18.000Z</updated>
+    <updated>2016-07-20T08:30:21.000Z</updated>
     
     <content type="html">&lt;p&gt;Gradle是一个工具，同时它也是一个编程框架。前面也提到过，使用这个工具可以完成app的编译打包等工作。当然你也可以用它干其他的事情。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;相关&lt;/strong&gt;&lt;br&gt;Gradle的官网：&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;http://gradle.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://gradle.org/&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.gradle.org/current/dsl/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://docs.gradle.org/current/dsl/&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;settings.gradle&lt;/strong&gt;&lt;br&gt;settings.gradle除了可以include外，还可以设置一些函数。这些函数会在gradle构建整个工程任务的时候执行，所以，可以在settings做一些初始化的工作。比如：我的settings.gradle的内容:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;settings.gradle&lt;/strong&gt;&lt;br&gt;settings.gradle除了可以include外，还可以设置一些函数。这些函数会在gradle构建整个工程任务的时候执行，所以，可以在settings做一些初始化的工作。比如：我的settings.gradle的内容:&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;//定义一个名为initMinshengGradleEnvironment的函数。该函数内部完成一些初始化操作//比如创建特定的目录，设置特定的参数等&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;def initMinshengGradleEnvironment()&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; println&amp;quot;initialize Minsheng Gradle Environment .....&amp;quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; ......//干一些special的私活....&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  println&amp;quot;initialize Minsheng Gradle Environment completes...&amp;quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; //settings.gradle加载的时候，会执行initMinshengGradleEnvironment&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; initMinshengGradleEnvironment()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; //include也是一个函数：&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; include &amp;apos;CPosSystemSdk&amp;apos; , &amp;apos;CPosDeviceSdk&amp;apos; ,   &amp;apos;CPosSdkDemo&amp;apos;,&amp;apos;CPosDeviceServerApk&amp;apos;,&amp;apos;CPosSystemSdkWizarPosImpl&amp;apos;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;##gradle命令介绍&lt;/p&gt;
 &lt;ol&gt;
@@ -34,7 +33,6 @@
 &lt;li&gt;gradle tasks查看任务信息&lt;/li&gt;
 &lt;li&gt;gradle task-name执行任务&lt;br&gt;列出了好多任务，这时候就可以通过 gradle 任务名来执行某个任务。这和make xxx很像。比如：&lt;br&gt;&lt;strong&gt;gradle clean&lt;/strong&gt;是执行清理任务，和make clean类似。&lt;br&gt;&lt;strong&gt;gradle properites&lt;/strong&gt;用来查看所有属性信息。&lt;br&gt;&lt;strong&gt;gradle tasks&lt;/strong&gt;会列出每个任务的描述，通过描述，我们大概能知道这些任务是干什么的…..。然后gradle task-name执行它就好。&lt;br&gt;这里要强调一点：Task和Task之间往往是有关系的，&lt;strong&gt;这就是所谓的依赖关系。比如，assemble task就依赖其他task先执行，assemble才能完成最终的输出&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;##Gradle基本类型&lt;/p&gt;
 &lt;p&gt;gradle基于groovy, gradle提供的基本类型也都实现了script.并且提供了大量的方法和属性&lt;/p&gt;
 &lt;p&gt;Build script -&amp;gt; Project (每个project的build.gradle也就是一个project)&lt;br&gt;Init script -&amp;gt; Gradle&lt;br&gt;Settings script -&amp;gt; Settings (对应setting.gradle)&lt;/p&gt;
@@ -86,16 +84,6 @@
     
       &lt;p&gt;Gradle是一个工具，同时它也是一个编程框架。前面也提到过，使用这个工具可以完成app的编译打包等工作。当然你也可以用它干其他的事情。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;相关&lt;/strong&gt;&lt;br&gt;Gradle的官网：&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;http://gradle.org/&quot;&gt;http://gradle.org/&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.gradle.org/current/dsl/&quot;&gt;https://docs.gradle.org/current/dsl/&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html&quot;&gt;https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;settings.gradle&lt;/strong&gt;&lt;br&gt;settings.gradle除了可以include外，还可以设置一些函数。这些函数会在gradle构建整个工程任务的时候执行，所以，可以在settings做一些初始化的工作。比如：我的settings.gradle的内容:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;//定义一个名为initMinshengGradleEnvironment的函数。该函数内部完成一些初始化操作//比如创建特定的目录，设置特定的参数等&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;def initMinshengGradleEnvironment()&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; println&amp;quot;initialize Minsheng Gradle Environment .....&amp;quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; ......//干一些special的私活....&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  println&amp;quot;initialize Minsheng Gradle Environment completes...&amp;quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; //settings.gradle加载的时候，会执行initMinshengGradleEnvironment&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; initMinshengGradleEnvironment()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; //include也是一个函数：&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; include &amp;apos;CPosSystemSdk&amp;apos; , &amp;apos;CPosDeviceSdk&amp;apos; ,   &amp;apos;CPosSdkDemo&amp;apos;,&amp;apos;CPosDeviceServerApk&amp;apos;,&amp;apos;CPosSystemSdkWizarPosImpl&amp;apos;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;##gradle命令介绍&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;gradle projects查看工程信息&lt;/li&gt;
-&lt;li&gt;gradle tasks查看任务信息&lt;/li&gt;
-&lt;li&gt;gradle task-name执行任务&lt;br&gt;列出了好多任务，这时候就可以通过 gradle 任务名来执行某个任务。这和make xxx很像。比如：&lt;br&gt;&lt;strong&gt;gradle clean&lt;/strong&gt;是执行清理任务，和make clean类似。&lt;br&gt;&lt;strong&gt;gradle properites&lt;/strong&gt;用来查看所有属性信息。&lt;br&gt;&lt;strong&gt;gradle tasks&lt;/strong&gt;会列出每个任务的描述，通过描述，我们大概能知道这些任务是干什么的…..。然后gradle task-name执行它就好。&lt;br&gt;这里要强调一点：Task和Task之间往往是有关系的，&lt;strong&gt;这就是所谓的依赖关系。比如，assemble task就依赖其他task先执行，assemble才能完成最终的输出&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
     
     </summary>
     
