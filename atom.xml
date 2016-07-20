@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://evilsoulm.com/"/>
-  <updated>2016-07-20T08:34:38.000Z</updated>
+  <updated>2016-07-20T17:07:50.000Z</updated>
   <id>http://evilsoulm.com/</id>
   
   <author>
@@ -16,11 +16,146 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Android学习资料哦</title>
+    <link href="http://evilsoulm.com/2016/07/20/Android%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    <id>http://evilsoulm.com/2016/07/20/Android学习资料/</id>
+    <published>2016-07-20T15:37:21.000Z</published>
+    <updated>2016-07-20T17:07:50.000Z</updated>
+    
+    <content type="html">&lt;p&gt;做Android到现在三年多了看了很多东西，收藏夹的东西也越来越多，越来越杂，也是时候一点一点的总结一下这三年android的知识，希望对新人也有一定的帮助，少遇到坑。&lt;/p&gt;
+&lt;p&gt;本文主要介绍一些Android开发常用的网站还有一些优秀的博客，排名没有优先级。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;国内网站&quot;&gt;&lt;a href=&quot;#国内网站&quot; class=&quot;headerlink&quot; title=&quot;国内网站&quot;&gt;&lt;/a&gt;国内网站&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;www.codekk.com&quot;&gt;CodeKK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gold.xitu.io/welcome/android&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;掘金&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jcodecraeer.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;泡在网上的日子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.devtf.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;开发技术前线&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://bugly.qq.com/bbs/portal.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bugly社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.androiddevtools.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;androiddevtools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.diycode.cc/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;diycode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gank.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;干货集中营&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.importnew.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Importnew&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mrpeak.cn/Android/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MrPeak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://yq.aliyun.com/articles?spm=5176.100239.headermenu.7.tYd4xu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;云栖社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wetest.qq.com/lab/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯质量开放平台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.90159.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;程序员头条&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://android.jobbole.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;伯乐在线&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://tech.glowing.com/cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;glowing技术博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;国内个人博客&quot;&gt;&lt;a href=&quot;#国内个人博客&quot; class=&quot;headerlink&quot; title=&quot;国内个人博客&quot;&gt;&lt;/a&gt;国内个人博客&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.trinea.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Trinea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/yanbober&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;工匠若水&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://droidyue.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;技术小黑屋&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://drakeet.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Drakkeet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hukai.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;胡凯&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.liaohuqiu.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;liaohuqiu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jayfeng.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;冯建&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.daimajia.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;daimajia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.race604.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://androidperformance.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.oasisfeng.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Oasis Feng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yifeiyuan.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;程序亦非猿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.easydone.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ailurus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mouxuejie.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;某学姐&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/guolin_blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;郭霖的专栏&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/singwhatiwanna&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;任玉刚&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zmywly8866.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张明云&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.kymjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张涛&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.zhaiyifan.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;markzhai’s home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wuxiaolong.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;吴小龙同学&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/eclipsexys&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;eclipse_xu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://baoyz.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;鲍永章&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.wxtlife.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android梦想特工队&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hongyang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/luoshengyang&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;老罗&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/innost&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿拉神农&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.chengyunfeng.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;云在千峰&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sixwolf.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;In Coding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.piasy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Piasy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gityuan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gityuan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://notes.stay4it.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Stay’s Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mrfu.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; MrFu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.wangchenlong.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;wangchenlong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.dreamtobe.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jacks Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ryanhoo.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ryanhoo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/users/f07458c1a8f3/latest_articles&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dongjunkun&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lightskystreet.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;lightSky‘Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://keeganlee.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Keegan小钢&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://segmentfault.com/u/kaede/articles?sort=vote&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中二病也要开发ANDROID&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/developer_jiangqq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;江清清&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/xyz_lmn?viewmode=contents&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张兴业的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/over140/category/253648.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;农民伯伯&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/xiaanming?viewmode=contents&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;xiaanming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.aswifter.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阳春面的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/xiaochao1234/archive/2015/06.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;xiaochao1234&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weishu.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Weishu’s Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rogerblog.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Roger’s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.oceancx.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ocean-藏心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ragnraok.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ragnarok Note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/bboyfeiyu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MrSimp1e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://my.oschina.net/853294317/blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UknowZheng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/way_ping_li?viewmode=contents&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/users/cb878579a389/latest_articles&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ntop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.aaapei.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aaapei&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;周报&quot;&gt;&lt;a href=&quot;#周报&quot; class=&quot;headerlink&quot; title=&quot;周报&quot;&gt;&lt;/a&gt;周报&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.androidweekly.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android开发技术周报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoq.com/cn/author/%E9%83%AD%E4%BA%AE&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;InfoQ Android开发周报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/users/4ef984470da8/latest_articles&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;平安金融科技周报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.race604.com/android-weekly-30/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android 周报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.devtf.cn/?tag=%E5%91%A8%E6%8A%A5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;开发技术前线周报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://androidweekly.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;androidweekly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;国外网站&quot;&gt;&lt;a href=&quot;#国外网站&quot; class=&quot;headerlink&quot; title=&quot;国外网站&quot;&gt;&lt;/a&gt;国外网站&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://android-arsenal.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Arsenal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://alamkanak.github.io/android-libraries-and-resources/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android Libraries and Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.grepcode.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GrepCode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.devtf.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;开发技术前线&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.nimbledroid.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nimbledroid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://engineering.linkedin.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linkedin技术博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.evernote.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EverNote技术博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.facebook.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Facebook技术博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://instagram-engineering.tumblr.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Instagram技术博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://corner.squareup.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Square技术博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://futurestud.io/blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Future Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://realm.io/news/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;realm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;国外个人博客&quot;&gt;&lt;a href=&quot;#国外个人博客&quot; class=&quot;headerlink&quot; title=&quot;国外个人博客&quot;&gt;&lt;/a&gt;国外个人博客&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.danlew.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;danlew&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hannesdorfmann.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hannesdorfmann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.easydone.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ailurus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://trickyandroid.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;trickyandroid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lucasr.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;lucasr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://richardradics.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;richardradics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;微信公众号&quot;&gt;&lt;a href=&quot;#微信公众号&quot; class=&quot;headerlink&quot; title=&quot;微信公众号&quot;&gt;&lt;/a&gt;微信公众号&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;WeMobileDev&lt;/li&gt;
+&lt;li&gt;架构师&lt;/li&gt;
+&lt;li&gt;手机淘宝技术团队MTT&lt;/li&gt;
+&lt;li&gt;移动开发前线&lt;/li&gt;
+&lt;li&gt;APP架构师&lt;/li&gt;
+&lt;li&gt;腾讯Bugly&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做Android到现在三年多了看了很多东西，收藏夹的东西也越来越多，越来越杂，也是时候一点一点的总结一下这三年android的知识，希望对新人也有一定的帮助，少遇到坑。&lt;/p&gt;
+&lt;p&gt;本文主要介绍一些Android开发常用的网站还有一些优秀的博客，排名没有优先级。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="http://evilsoulm.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Gradle基础</title>
     <link href="http://evilsoulm.com/2016/07/20/Gradle%E5%9F%BA%E7%A1%80/"/>
     <id>http://evilsoulm.com/2016/07/20/Gradle基础/</id>
     <published>2016-07-19T20:23:04.000Z</published>
-    <updated>2016-07-20T08:34:38.000Z</updated>
+    <updated>2016-07-20T15:38:19.000Z</updated>
     
     <content type="html">&lt;p&gt;Gradle是一个工具，同时它也是一个编程框架。前面也提到过，使用这个工具可以完成app的编译打包等工作。当然你也可以用它干其他的事情。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;相关&lt;/strong&gt;&lt;br&gt;Gradle的官网：&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;http://gradle.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://gradle.org/&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.gradle.org/current/dsl/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://docs.gradle.org/current/dsl/&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -87,6 +222,8 @@
     
     </summary>
     
+    
+      <category term="Gradle" scheme="http://evilsoulm.com/tags/Gradle/"/>
     
   </entry>
   
