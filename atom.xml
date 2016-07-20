@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://evilsoulm.com/"/>
-  <updated>2016-07-20T17:10:11.000Z</updated>
+  <updated>2016-07-20T17:11:53.000Z</updated>
   <id>http://evilsoulm.com/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://evilsoulm.com/2016/07/20/Android%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
     <id>http://evilsoulm.com/2016/07/20/Android学习资料/</id>
     <published>2016-07-20T15:37:21.000Z</published>
-    <updated>2016-07-20T17:10:11.000Z</updated>
+    <updated>2016-07-20T17:11:53.000Z</updated>
     
     <content type="html">&lt;p&gt;做Android到现在三年多了看了很多东西，收藏夹的东西也越来越多，越来越杂，也是时候一点一点的总结一下这三年android的知识，希望对新人也有一定的帮助，少遇到坑。&lt;/p&gt;
 &lt;p&gt;本文主要介绍一些Android开发常用的网站还有一些优秀的博客，排名没有优先级。&lt;/p&gt;
 &lt;h2 id=&quot;国内网站&quot;&gt;&lt;a href=&quot;#国内网站&quot; class=&quot;headerlink&quot; title=&quot;国内网站&quot;&gt;&lt;/a&gt;国内网站&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;www.codekk.com&quot;&gt;CodeKK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.codekk.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CodeKK&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://gold.xitu.io/welcome/android&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;掘金&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jcodecraeer.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;泡在网上的日子&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.devtf.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;开发技术前线&lt;/a&gt;&lt;/li&gt;
@@ -145,7 +145,7 @@
       &lt;p&gt;做Android到现在三年多了看了很多东西，收藏夹的东西也越来越多，越来越杂，也是时候一点一点的总结一下这三年android的知识，希望对新人也有一定的帮助，少遇到坑。&lt;/p&gt;
 &lt;p&gt;本文主要介绍一些Android开发常用的网站还有一些优秀的博客，排名没有优先级。&lt;/p&gt;
 &lt;h2 id=&quot;国内网站&quot;&gt;&lt;a href=&quot;#国内网站&quot; class=&quot;headerlink&quot; title=&quot;国内网站&quot;&gt;&lt;/a&gt;国内网站&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;www.codekk.com&quot;&gt;CodeKK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.codekk.com&quot;&gt;CodeKK&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://gold.xitu.io/welcome/android&quot;&gt;掘金&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jcodecraeer.com/&quot;&gt;泡在网上的日子&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.devtf.cn/&quot;&gt;开发技术前线&lt;/a&gt;&lt;/li&gt;
