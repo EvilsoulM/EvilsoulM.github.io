@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>EvilsoulM</title>
-  
+  <subtitle>入京务工人员</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://evilsoulm.com/"/>
   <updated>2016-07-20T06:29:53.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://evilsoulm.com/</id>
   
   <author>
     <name>EvilsoulM</name>
-    
+    <email>ma2650118@qq.om</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Gradle基础</title>
-    <link href="http://yoursite.com/2016/07/20/Gradle%E5%9F%BA%E7%A1%80/"/>
-    <id>http://yoursite.com/2016/07/20/Gradle基础/</id>
+    <link href="http://evilsoulm.com/2016/07/20/Gradle%E5%9F%BA%E7%A1%80/"/>
+    <id>http://evilsoulm.com/2016/07/20/Gradle基础/</id>
     <published>2016-07-20T06:29:53.000Z</published>
     <updated>2016-07-20T06:29:53.000Z</updated>
     
