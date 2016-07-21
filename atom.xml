@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://evilsoulm.com/"/>
-  <updated>2016-07-21T06:03:56.000Z</updated>
+  <updated>2016-07-21T07:07:03.000Z</updated>
   <id>http://evilsoulm.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://evilsoulm.com/2016/07/20/Android%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99/"/>
     <id>http://evilsoulm.com/2016/07/20/Android常用网站/</id>
     <published>2016-07-20T15:37:21.000Z</published>
-    <updated>2016-07-21T06:03:56.000Z</updated>
+    <updated>2016-07-21T07:07:03.000Z</updated>
     
     <content type="html">&lt;p&gt;做Android到现在三年多了看了很多东西，收藏夹的东西也越来越多，越来越杂，也是时候一点一点的总结一下这三年android的知识，希望对新人也有一定的帮助，少遇到坑。&lt;/p&gt;
 &lt;p&gt;本文主要介绍一些Android开发常用的网站还有一些优秀的博客，排名没有优先级。&lt;/p&gt;
@@ -107,6 +107,7 @@
 &lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/users/b99b0edd4e77/latest_articles&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BlackSwift&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jiajixin.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jiajixin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://w4lle.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;w4lle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stormzhang.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;stormzhang&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;周报&quot;&gt;&lt;a href=&quot;#周报&quot; class=&quot;headerlink&quot; title=&quot;周报&quot;&gt;&lt;/a&gt;周报&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.androidweekly.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Android开发技术周报&lt;/a&gt;&lt;/li&gt;
@@ -129,6 +130,9 @@
 &lt;li&gt;&lt;a href=&quot;https://corner.squareup.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Square技术博客&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://futurestud.io/blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Future Studio&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://realm.io/news/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;realm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.opoloo.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;opoloo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@BashaChris&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BashaChris&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@romannurik&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;romannurik&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;国外个人博客&quot;&gt;&lt;a href=&quot;#国外个人博客&quot; class=&quot;headerlink&quot; title=&quot;国外个人博客&quot;&gt;&lt;/a&gt;国外个人博客&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.danlew.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;danlew&lt;/a&gt;&lt;/li&gt;
@@ -137,6 +141,10 @@
 &lt;li&gt;&lt;a href=&quot;http://trickyandroid.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;trickyandroid&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lucasr.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;lucasr&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://richardradics.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;richardradics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://frogermcs.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;frogermcs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chris.banes.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;chris.banes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lucasr.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;lucasr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jdamcd.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jdamcd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;视频学习站点&quot;&gt;&lt;a href=&quot;#视频学习站点&quot; class=&quot;headerlink&quot; title=&quot;视频学习站点&quot;&gt;&lt;/a&gt;视频学习站点&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jikexueyuan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;极客学院&lt;/a&gt;&lt;/li&gt;
