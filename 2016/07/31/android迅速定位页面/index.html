@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> android迅速定位页面 · EvilsoulM</title><meta name="description" content="android迅速定位页面 - EvilsoulM"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://evilsoulm.com/atom.xml" title="EvilsoulM"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://www.weibo.com/1895866907" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/EvilsoulM" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">android迅速定位页面</h1><div class="post-info">Jul 31, 2016</div><div class="post-content"><p>大家是不是经常会遇到别人问自己某个页面是什么Activity,刚开始还能耐心的回答后面慢慢自己也就烦躁了。</p>
+<p>只适合Debug模式</p>
+<p>今天教大家一个简单快速定位页面是哪个Activity或者fragment的方法。</p>
+<p>比如下面这个页面<br><img src="http://oacl4nhb6.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-31%2010.58.36%20PM.png" alt="Paste_Image.png"></p>
+<p>定位步骤：   </p>
+<ol>
+<li>模拟器或者手机连接电脑并打开要定位的页面<br><img src="http://oacl4nhb6.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-31%2011.03.29%20PM.png" alt="Paste_Image.png"></li>
+</ol>
+<p>2.点击Android Monitor左边的System Infomation 中的Actvity Manager State<br><img src="http://oacl4nhb6.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-31%2011.06.18%20PM.png" alt="Paste_Image.png"></p>
+<p>3.点击Actvity Manager State 会出现下面的界面 其实就是activity的堆栈信息<br>当然在栈顶就是当前模拟器或者手机打开的页面及上面那个页面叫做AboutActivity<br>如果要定位fragment就在当前activity地下有他所包含的fragment<br><img src="http://oacl4nhb6.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-31%2011.07.49%20PM.png" alt="Paste_Image.png"></p>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/07/24/解决在软键盘弹出的时候挤压或者遮盖原有的布局/" class="next">NEXT</a></div><div data-thread-key="2016/07/31/android迅速定位页面/" data-title="android迅速定位页面" data-url="http://evilsoulm.com/2016/07/31/android迅速定位页面/" data-author-key="1" class="ds-thread"></div><script>var duoshuoQuery = {short_name:"seansun"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+</script><div class="copyright"><p>© 2015 - 2016 <a href="http://evilsoulm.com">EvilsoulM</a>, unless otherwise noted.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
